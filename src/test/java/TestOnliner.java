@@ -42,9 +42,7 @@ public class TestOnliner {
         driver.findElement(By.linkText(CONDITION_FIVE)).click();
         waitXpathSearch(driver, CONDITION_SIX);
         driver.findElement(By.xpath(CONDITION_SIX)).click();
-        System.out.println("666");
         waitXpathSearch(driver, CONDITION_SEVEN);
-        System.out.println("777");
         driver.findElement(By.cssSelector(CONDITION_EIGHT));
     }
 
